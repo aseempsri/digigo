@@ -39,7 +39,7 @@ const values = [
   template: `
     <app-hero-banner
       title="About Us"
-      subtitle="The story behind Adrika Marketing and our commitment to excellence"
+      subtitle="The story behind Digigo and our commitment to excellence"
     />
 
     <section class="py-20">
@@ -53,7 +53,7 @@ const values = [
               Building Brands Since 2012
             </h2>
             <p class="mt-4 text-muted-foreground leading-relaxed">
-              Founded in 2012, Adrika Marketing began as a small team of passionate marketers with a big vision — to
+              Founded in 2012, Digigo began as a small team of passionate marketers with a big vision — to
               bridge the gap between brands and their audiences through integrated, data-driven marketing solutions.
             </p>
             <p class="mt-4 text-muted-foreground leading-relaxed">
@@ -63,7 +63,7 @@ const values = [
             </p>
           </div>
           <div class="flex items-center justify-center">
-            <img [src]="getAssetPath('logo.png')" alt="Adrika Marketing" class="w-[67%] h-auto object-contain drop-shadow-[0_0_40px_rgba(245,158,11,0.6)]" />
+            <img [src]="getAssetPath('logo.png')" alt="Digigo" class="w-[67%] h-auto object-contain drop-shadow-[0_0_40px_rgba(245,158,11,0.6)]" />
           </div>
         </div>
       </div>

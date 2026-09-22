@@ -2,35 +2,18 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Adrika Marketing</title>
+    <title>Digigo</title>
     <base href="/">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Adrika Marketing - Full-service digital marketing agency" />
-    <meta name="author" content="Adrika Marketing" />
-    <meta property="og:title" content="Adrika Marketing" />
-    <meta property="og:description" content="Adrika Marketing - Full-service digital marketing agency" />
+    <meta name="description" content="Digigo - Full-service digital marketing agency" />
+    <meta name="author" content="Digigo" />
+    <meta property="og:title" content="Digigo" />
+    <meta property="og:description" content="Digigo - Full-service digital marketing agency" />
     <meta property="og:type" content="website" />
-    <link rel="icon" type="image/svg+xml" href="favicon.svg">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon.png">
-    <script>
-      // Redirect all domain variations to https://www.adrikamarketing.com
-      (function() {
-        var hostname = window.location.hostname.toLowerCase();
-        var protocol = window.location.protocol;
-        var path = window.location.pathname + window.location.search + window.location.hash;
-        
-        // Check if current hostname is not www.adrikamarketing.com
-        if (hostname !== 'www.adrikamarketing.com') {
-          // Redirect to www.adrikamarketing.com with the same path
-          var redirectUrl = 'https://www.adrikamarketing.com' + path;
-          window.location.replace(redirectUrl);
-        } else if (protocol !== 'https:') {
-          // Force HTTPS if not already using it
-          var redirectUrl = 'https://www.adrikamarketing.com' + path;
-          window.location.replace(redirectUrl);
-        }
-      })();
-    </script>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
   </head>
   <body>
     <app-root></app-root>

@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "AdrikaMarketing": {
+    "Digigo": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:class": {
@@ -38,7 +38,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/adrika-marketing",
+            "outputPath": "dist/digigo",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -84,10 +84,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "AdrikaMarketing:build:production"
+              "buildTarget": "Digigo:build:production"
             },
             "development": {
-              "buildTarget": "AdrikaMarketing:build:development"
+              "buildTarget": "Digigo:build:development"
             }
           },
           "defaultConfiguration": "development"

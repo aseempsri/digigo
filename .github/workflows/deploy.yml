@@ -35,17 +35,22 @@ jobs:
 
       - name: Verify build output
         run: |
-          if [ ! -f "dist/adrika-marketing/browser/index.html" ]; then
+          if [ ! -f "dist/digigo/browser/index.html" ]; then
             echo "ERROR: Build output not found!"
             echo "Checking dist directory structure:"
             find dist -type f -name "*.html" | head -10
             exit 1
           fi
           echo "Build output verified successfully"
-          ls -la dist/adrika-marketing/browser/ | head -20
+          ls -la dist/digigo/browser/ | head -20
 
       - name: Copy index.html to 404.html for SPA routing
-        run: cp dist/adrika-marketing/browser/index.html dist/adrika-marketing/browser/404.html
+        run: cp dist/digigo/browser/index.html dist/digigo/browser/404.html
+
+      - name: Ensure CNAME is present for custom domain
+        run: |
+          echo "digigo.co.in" > dist/digigo/browser/CNAME
+          cat dist/digigo/browser/CNAME
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
@@ -53,7 +58,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: './dist/adrika-marketing/browser'
+          path: './dist/digigo/browser'
 
   deploy:
     environment:

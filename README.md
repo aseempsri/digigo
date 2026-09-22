@@ -1,6 +1,6 @@
-# Adrika Marketing - Angular
+# Digigo - Angular
 
-Full conversion of the Adrika Marketing Launchpad from React/Vite to Angular 19. All styles, fonts, and functionality have been preserved.
+Full-service digital marketing agency site built with Angular 19.
 
 ## Tech Stack
 
@@ -41,14 +41,3 @@ npm run build
 - `/our-work` - Our Work
 - `/contact-us` - Contact Us
 - `*` - 404 Not Found
-
-## Preserved from Original
-
-- All CSS variables (colors, radii, etc.)
-- Montserrat (headings) and Open Sans (body) fonts
-- Dark theme styling
-- All page content and layout
-- Toast notifications on contact form submit
-- Marquee animation for client logos
-- Hero slider with 4 slides
-- Filterable portfolio/work sections

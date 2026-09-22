@@ -66,7 +66,7 @@ const projects = [
   template: `
     <app-hero-banner
       title="Our Work"
-      subtitle="Here's showcasing the best of Adrika Marketing"
+      subtitle="Here's showcasing the best of Digigo"
     />
 
     <section class="py-20">

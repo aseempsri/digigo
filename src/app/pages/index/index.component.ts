@@ -41,10 +41,6 @@ const clientLogos = [
   '/images/Cleartrip-Logo.png',
   '/images/Jharkhand Government logo.jpg',
   '/images/insurance dekho.png',
-  'https://adrika.co.in/assets/images/clients/logo.png',
-  ...Array.from({ length: 12 }, (_, i) =>
-    `https://adrika.co.in/assets/images/clients/logo${i + 2}.png`,
-  ),
 ];
 
 const workItems = [
@@ -209,7 +205,7 @@ const awards = [
                 Integrated Marketing Solutions That Drive Growth
               </h2>
               <p class="mt-4 text-muted-foreground leading-relaxed">
-                Adrika Marketing is a full-service marketing agency based in India, specializing in digital
+                Digigo is a full-service marketing agency based in India, specializing in digital
                 marketing, experiential events, lead generation, and content strategy. We combine creativity
                 with data to deliver campaigns that move the needle.
               </p>
@@ -321,7 +317,7 @@ const awards = [
             Trusted by Leading Brands
           </h2>
           <blockquote class="text-xl md:text-2xl italic text-foreground/80 leading-relaxed">
-            "Adrika Marketing transformed our digital presence entirely. Their strategic approach and creative
+            "Digigo transformed our digital presence entirely. Their strategic approach and creative
             execution delivered results that exceeded all expectations."
           </blockquote>
           <p class="mt-4 text-primary font-heading font-semibold uppercase tracking-wider text-sm">
@@ -419,7 +415,7 @@ export class IndexComponent implements OnInit, OnDestroy {
     return base + cleanPath;
   }
 
-  /** Indices of client logos that are dark/black (e.g. Home4Data from adrika.co.in). Add the index if needed. */
+  /** Indices of client logos that are dark/black. Add the index if needed. */
   darkLogoIndices = new Set<number>([10]);
 
   /** Logos that are dark/black and need a light background or invert to be visible */

@@ -13,15 +13,7 @@ import { LucideAngularModule } from 'lucide-angular';
           <div>
             <div class="flex items-center gap-3 mb-4">
               <div class="logo-flow-container">
-                <img [src]="getAssetPath('logo.png')" alt="Adrika Marketing Logo" class="h-[60px] w-auto object-contain relative z-10" />
-              </div>
-              <div class="flex flex-col">
-                <span class="text-xl font-heading font-bold tracking-tight text-foreground leading-tight logo-text-outline">
-                  Adrika Marketing
-                </span>
-                <span class="text-xs font-heading text-muted-foreground tracking-wide leading-tight">
-                  shaping the idea into brand
-                </span>
+                <img [src]="getAssetPath('logo.png')" alt="Digigo" class="h-[72px] w-auto object-contain relative z-10" />
               </div>
             </div>
             <p class="text-muted-foreground text-sm leading-relaxed">
@@ -63,13 +55,13 @@ import { LucideAngularModule } from 'lucide-angular';
               <li class="flex items-center gap-2">
                 <lucide-icon name="phone" [size]="16" class="shrink-0 text-primary" />
                 <div class="flex flex-col">
-                  <span>+91-9318441235</span>
-                  <span>+91-9235777101</span>
+                  <span>+91-9106060363</span>
+                  <span>+91-9815461615</span>
                 </div>
               </li>
               <li class="flex items-center gap-2">
                 <lucide-icon name="mail" [size]="16" class="shrink-0 text-primary" />
-                <span>info&#64;adrika.co.in</span>
+                <span>info&#64;digigo.co.in</span>
               </li>
             </ul>
             <div class="flex gap-3 mt-4">
@@ -90,7 +82,7 @@ import { LucideAngularModule } from 'lucide-angular';
         </div>
 
         <div class="mt-12 pt-6 border-t border-border text-center text-sm text-muted-foreground">
-          © {{ currentYear }} Adrika Marketing. All rights reserved.
+          © {{ currentYear }} Digigo. All rights reserved.
         </div>
       </div>
     </footer>

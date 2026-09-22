@@ -153,7 +153,7 @@ export class ContactUsComponent {
     message: '',
   };
 
-  phoneNumbers = ['+91-9318441235', '+91-9235777101'];
+  phoneNumbers = ['+91-9106060363', '+91-9815461615'];
 
   contactItems = [
     {
@@ -164,12 +164,12 @@ export class ContactUsComponent {
     {
       icon: 'mail',
       title: 'Email Us',
-      lines: ['info@adrika.co.in'],
+      lines: ['info@digigo.co.in'],
     },
     {
       icon: 'phone',
       title: 'Call Us',
-      lines: ['+91-9318441235', '+91-9235777101'],
+      lines: ['+91-9106060363', '+91-9815461615'],
     },
   ];
 
