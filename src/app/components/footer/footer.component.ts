@@ -50,7 +50,7 @@ import { LucideAngularModule } from 'lucide-angular';
             <ul class="space-y-3 text-sm text-muted-foreground">
               <li class="flex items-start gap-2">
                 <lucide-icon name="map-pin" [size]="16" class="mt-0.5 shrink-0 text-primary" />
-                <span>597, Airhe Road, Chandmari, Post- Lamhi, Varanasi, Uttar Pradesh - 221007, India</span>
+                <span>Kamal Kunj, House No. 493/7, Gunnu Ghat Nahan, Dist. Sirmaur, Himachal Pradesh, 173001</span>
               </li>
               <li class="flex items-center gap-2">
                 <lucide-icon name="phone" [size]="16" class="shrink-0 text-primary" />

@@ -159,7 +159,7 @@ export class ContactUsComponent {
     {
       icon: 'map-pin',
       title: 'Visit Us',
-      lines: ['597, Airhe Road, Chandmari, Post- Lamhi', 'Varanasi, Uttar Pradesh - 221007', 'India'],
+      lines: ['Kamal Kunj, House No. 493/7, Gunnu Ghat Nahan', 'Dist. Sirmaur, Himachal Pradesh, 173001', 'India'],
     },
     {
       icon: 'mail',
