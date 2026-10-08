@@ -164,7 +164,7 @@ export class ContactUsComponent {
     {
       icon: 'mail',
       title: 'Email Us',
-      lines: ['info@digigo.co.in'],
+      lines: ['digigouniverse@gmail.com'],
     },
     {
       icon: 'phone',

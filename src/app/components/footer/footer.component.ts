@@ -61,7 +61,7 @@ import { LucideAngularModule } from 'lucide-angular';
               </li>
               <li class="flex items-center gap-2">
                 <lucide-icon name="mail" [size]="16" class="shrink-0 text-primary" />
-                <span>info&#64;digigo.co.in</span>
+                <span>digigouniverse&#64;gmail.com</span>
               </li>
             </ul>
             <div class="flex gap-3 mt-4">
